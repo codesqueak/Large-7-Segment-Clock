@@ -6,3 +6,7 @@ A pure logic, 7 segment 24 hour clock using large 7 segment displays
 
 ![PCB Circuit Layout](circuit.png)
 
+![PCB Circuit Layout](front.png)
+
+![PCB Circuit Layout](running.png)
+
