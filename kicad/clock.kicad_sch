@@ -5,9 +5,9 @@
 	(uuid "52556f3a-6d57-4670-ba4a-28f0dc053e76")
 	(paper "A3")
 	(title_block
-		(title "Logic Clock")
-		(date "2025-10-31")
-		(rev "1.0")
+		(title "Large Logic Clock")
+		(date "2025-12-12")
+		(rev "3.0")
 	)
 	(lib_symbols
 		(symbol "4xxx:4013"
@@ -13089,6 +13089,70 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 224.79 275.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0c7dadbe-3b0c-4fd6-b897-ff777818a471")
+		(property "Reference" "H5"
+			(at 227.33 274.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 227.33 276.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.5mm"
+			(at 224.79 275.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 224.79 275.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 224.79 275.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "clock"
+				(path "/52556f3a-6d57-4670-ba4a-28f0dc053e76"
+					(reference "H5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "4xxx:4060")
 		(at 248.92 200.66 0)
 		(unit 1)
@@ -18837,7 +18901,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 248.92 251.46 0)
+		(at 248.92 252.73 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18846,7 +18910,7 @@
 		(fields_autoplaced yes)
 		(uuid "acca485f-b213-46df-b81a-96b5c82c756c")
 		(property "Reference" "H2"
-			(at 251.46 250.19 0)
+			(at 251.46 251.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18855,7 +18919,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 251.46 252.73 0)
+			(at 251.46 254 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18864,7 +18928,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.5mm"
-			(at 248.92 251.46 0)
+			(at 248.92 252.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18873,7 +18937,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 248.92 251.46 0)
+			(at 248.92 252.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18882,7 +18946,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 248.92 251.46 0)
+			(at 248.92 252.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20228,7 +20292,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 224.79 251.46 0)
+		(at 224.79 252.73 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20237,7 +20301,7 @@
 		(fields_autoplaced yes)
 		(uuid "db04f444-8fc0-4b22-8f17-bc6b0e941c7d")
 		(property "Reference" "H1"
-			(at 227.33 250.19 0)
+			(at 227.33 251.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20246,7 +20310,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 227.33 252.73 0)
+			(at 227.33 254 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20255,7 +20319,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.5mm"
-			(at 224.79 251.46 0)
+			(at 224.79 252.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20264,7 +20328,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 224.79 251.46 0)
+			(at 224.79 252.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20273,7 +20337,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 224.79 251.46 0)
+			(at 224.79 252.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20595,6 +20659,70 @@
 			(project "clock"
 				(path "/52556f3a-6d57-4670-ba4a-28f0dc053e76"
 					(reference "RN2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 248.92 275.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e6275e6a-5b77-4e6d-9668-302db835c802")
+		(property "Reference" "H6"
+			(at 251.46 274.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 251.46 276.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.5mm"
+			(at 248.92 275.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 248.92 275.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 248.92 275.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "clock"
+				(path "/52556f3a-6d57-4670-ba4a-28f0dc053e76"
+					(reference "H6")
 					(unit 1)
 				)
 			)
