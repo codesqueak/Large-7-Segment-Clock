@@ -17,4 +17,4 @@ Green Display
 
 Various Colours
 
-![PCB Circuit Layout](running colour.png)
+![PCB Circuit Layout](running_colour.png)
